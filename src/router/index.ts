@@ -6,6 +6,7 @@
  */
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router';
 import AppLayout from '@/layout/AppLayout.vue'
+import productRoutes from './modules/product'
 // 路由记录，这个跟vue2中用法一致，就不做过多解释了
 const routes: Array<RouteRecordRaw> = [
   {
@@ -15,8 +16,12 @@ const routes: Array<RouteRecordRaw> = [
       {
         path: '/',
         name: 'home',
-        component: () => import('@/views/home/index.vue')
-      }
+        component: () => import('@/views/home/index.vue'),
+        meta: {
+          title: '首页'
+        }
+      },
+      productRoutes
     ]
   },
   {
