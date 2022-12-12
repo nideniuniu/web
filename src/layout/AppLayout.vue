@@ -40,6 +40,7 @@ const store = useStore();
     width: 60px;
     background-color: #304156;
     transition: width 0.3s;
+    overflow: hidden;
 }
 
 .el-aside.show {
