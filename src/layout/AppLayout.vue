@@ -16,7 +16,7 @@
     </el-container>
 </template>
 
-<script setup lang="ts">
+<script setup lang="ts"> 
 import AppMenu from "./AppMenu/index.vue";
 import AppHeader from "./AppHeader/index.vue";
 import { useStore } from "@/store";
