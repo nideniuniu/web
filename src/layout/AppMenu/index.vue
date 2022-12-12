@@ -42,8 +42,7 @@ const store = useStore();
 </script>
 
 <style scoped lang="less">
-.el-menu-vertical-demo:not(.el-menu--collapse) {
-    width: 200px;
-    min-height: 400px;
+.el-menu {
+    border-right: none;
 }
 </style>
