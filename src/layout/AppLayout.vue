@@ -16,7 +16,7 @@
 	</el-container>
 </template>
 
-<script setup lang="ts">
+<script setup lang="ts"> 
 import AppMenu from "./AppMenu/index.vue";
 import AppHeader from "./AppHeader/index.vue";
 import { useStore } from "@/store";
@@ -59,10 +59,10 @@ console.log([...map.values()]);
 }
 
 .el-aside {
-	width: 60px;
-	background-color: #304156;
-	transition: width 0.3s;
-	overflow: hidden;
+    width: 60px;
+    background-color: #304156;
+    transition: width 0.3s;
+    overflow: hidden;
 }
 
 .el-aside.show {
