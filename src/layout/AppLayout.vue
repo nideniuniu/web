@@ -55,7 +55,7 @@ console.log([...map.values()]);
 	color: #333;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items : center;
 }
 
 .el-aside {

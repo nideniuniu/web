@@ -11,6 +11,8 @@ import * as ELIcons from "@element-plus/icons-vue";
 
 import { createPinia } from 'pinia'
 
+import './mock/mock.js'
+
 const app = createApp(App);
 app.use(router)
 

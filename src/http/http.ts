@@ -11,7 +11,6 @@ const router = useRouter();
 // 这里baseURL可以通过开发或者生产环境来区分
 // 如果需要代理，就去vite.config.ts中配置
 const http = axios.create({
-  baseURL: "http://127.0.0.1:3000",
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",
